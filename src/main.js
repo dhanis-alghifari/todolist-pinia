@@ -4,8 +4,5 @@ import App from './App.vue'
 
 import './assets/main.css'
 
-const app = createApp(App)
+createApp(App).use(createPinia()).mount('#app');
 
-app.use(createPinia())
-
-app.mount('#app')
