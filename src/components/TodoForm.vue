@@ -1,6 +1,6 @@
 <template>
     <div>
-        <form @submit.prevent="addItemAndClear">
+        <form @submit.prevent="addItemAndClear(todo)">
             <input type="text" v-model="todo">
             <button>Add</button>
         </form>
