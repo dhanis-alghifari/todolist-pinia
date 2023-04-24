@@ -1,23 +1,21 @@
 <template>
-    <div class="todo-app">
-        <h1>Todo List App</h1>
-        <TodoForm />
-        <TodoList />
-    </div>
+  <div class="todo-app">
+    <h1>Todo List App</h1>
+    <TodoForm />
+    <TodoList />
+  </div>
 </template>
 
 <script setup>
-import TodoForm from './TodoForm.vue';
-import TodoList from './TodoList.vue';
-
+import TodoForm from "./TodoForm.vue";
+import TodoList from "./TodoList.vue";
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<style scoped>
+.todo-app {
+  padding: 5vh;
+  min-height: 100vh;
+  width: 30vw;
+  background-color: #f7f9fc;
 }
 </style>
